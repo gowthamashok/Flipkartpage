@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Flipkartpage</string>
+
+    <string name="off1_name">Bed</string>
+    <string name="off2_name">IFB Washing Machine</string>
+    <string name="off3_name">Show Piece</string>
+    <string name="off4_name">Live Plants</string>
+    <string name="off1_price">$90</string>
+    <string name="off2_price">$230</string>
+    <string name="off3_price">$2.50</string>
+    <string name="off4_price">$0.99</string>
+    <string name="off1_rating">2.7 *</string>
+    <string name="off2_rating">4.2 *</string>
+    <string name="off3_rating">4.0 *</string>
+    <string name="off4_rating">3.8 *</string>
+    <string name="off1_rating_person">(30,005)</string>
+    <string name="off2_rating_person">(96,000)</string>
+    <string name="off3_rating_person">(3,600)</string>
+    <string name="off4_rating_person">(600)</string>
+    <string name="off1_discount">(30 % off)</string>
+    <string name="off2_discount">(12 % off)</string>
+    <string name="off3_discount">(33 % off)</string>
+    <string name="off4_discount">(20 % off)</string>
+
+    <string name="mob1_name">Iphone XS</string>
+    <string name="mob2_name">Samsung Galaxy S9</string>
+    <string name="mob3_name">OPPO Reno</string>
+    <string name="mob4_name">Vivo Z1 Pro</string>
+    <string name="mob1_price">$2000</string>
+    <string name="mob2_price">$1800</string>
+    <string name="mob3_price">$750</string>
+    <string name="mob4_price">$600</string>
+    <string name="mob1_rating">4.6 *</string>
+    <string name="mob2_rating">4.2 *</string>
+    <string name="mob3_rating">4.0 *</string>
+    <string name="mob4_rating">4.8 *</string>
+    <string name="mob1_rating_person">(4,30,005)</string>
+    <string name="mob2_rating_person">(2,46,120)</string>
+    <string name="mob3_rating_person">(23,600)</string>
+    <string name="mob4_rating_person">(5,56,602)</string>
+    <string name="mob1_discount">(12 off%)</string>
+    <string name="mob2_discount">(10 off%)</string>
+    <string name="mob3_discount">(18 off%)</string>
+    <string name="mob4_discount">(20 off%)</string>
+
+    <string name="fas1_name">FastTrack Watch</string>
+    <string name="fas2_name">Shoe</string>
+    <string name="fas3_name">College Bag</string>
+    <string name="fas4_name">Hand Bag</string>
+    <string name="fas1_price">$50</string>
+    <string name="fas2_price">$15</string>
+    <string name="fas3_price">$10</string>
+    <string name="fas4_price">$15</string>
+    <string name="fas1_rating">3.8 *</string>
+    <string name="fas2_rating">3.2 *</string>
+    <string name="fas3_rating">4.0 *</string>
+    <string name="fas4_rating">3.8 *</string>
+    <string name="fas1_rating_person">(32,412)</string>
+    <string name="fas2_rating_person">(1,569)</string>
+    <string name="fas3_rating_person">(3,645)</string>
+    <string name="fas4_rating_person">(6,621)</string>
+    <string name="fas1_discount">(30 off%)</string>
+    <string name="fas2_discount">(20 off%)</string>
+    <string name="fas3_discount">(28 off%)</string>
+    <string name="fas4_discount">(20 off%)</string>
+
+    <string name="eleo1_name">Philips Trimmer</string>
+    <string name="eleo2_name">Ipad</string>
+    <string name="eleo3_name">Canon Printer</string>
+    <string name="eleo4_name">Ipod</string>
+    <string name="eleo1_price">$200</string>
+    <string name="eleo2_price">$1000</string>
+    <string name="eleo3_price">$250</string>
+    <string name="eleo4_price">$600</string>
+    <string name="eleo1_rating">4.0 *</string>
+    <string name="eleo2_rating">4.2 *</string>
+    <string name="eleo3_rating">3.6 *</string>
+    <string name="eleo4_rating">4.1 *</string>
+    <string name="eleo1_rating_person">(42,512)</string>
+    <string name="eleo2_rating_person">(1,01,145)</string>
+    <string name="eleo3_rating_person">(23,650)</string>
+    <string name="eleo4_rating_person">(4,46,621)</string>
+    <string name="eleo1_discount">(10 off%)</string>
+    <string name="eleo2_discount">(8 off%)</string>
+    <string name="eleo3_discount">(18 off%)</string>
+    <string name="eleo4_discount">(5 off%)</string>
+
+
+</resources>

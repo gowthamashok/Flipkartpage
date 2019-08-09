@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mobiles"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compare"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sort"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mob1"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mob1_name"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob1_rating"
+                            android:textColor="@color/White"
+                            android:background="@color/forest_green"
+                            android:paddingHorizontal="8dp"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob1_rating_person"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob1_price"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob1_discount"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/tomato_red"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Cost EMI"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/Black"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="+"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="-"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/dim_gray"
+                android:layout_marginTop="10dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mob2"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mob2_name"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob2_rating"
+                            android:textColor="@color/White"
+                            android:background="@color/forest_green"
+                            android:paddingHorizontal="8dp"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob2_rating_person"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob2_price"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob2_discount"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/tomato_red"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Cost EMI"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/Black"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="+"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="-"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/dim_gray"
+                android:layout_marginTop="10dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mob3"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mob3_name"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob3_rating"
+                            android:textColor="@color/White"
+                            android:background="@color/forest_green"
+                            android:paddingHorizontal="8dp"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob3_rating_person"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob3_price"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob3_discount"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/tomato_red"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Cost EMI"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/Black"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="+"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="-"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/dim_gray"
+                android:layout_marginTop="10dp">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mob4"
+                    android:layout_marginTop="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:orientation="vertical"
+                    android:weightSum="5"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mob4_name"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob4_rating"
+                            android:textColor="@color/White"
+                            android:background="@color/forest_green"
+                            android:paddingHorizontal="8dp"
+                            android:textSize="15dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob4_rating_person"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="8dp"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob4_price"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="8dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mob4_discount"
+                            android:layout_marginLeft="8dp"
+                            android:textSize="10dp"
+                            android:textColor="@color/tomato_red"
+                            android:layout_gravity="center_vertical"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No Cost EMI"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/Black"
+                        android:layout_weight="1"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="+"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="1"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+                        <Button
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:text="-"
+                            android:layout_weight="1"
+                            android:textAlignment="center"/>
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/dim_gray"
+                android:layout_marginTop="10dp">
+
+            </View>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+

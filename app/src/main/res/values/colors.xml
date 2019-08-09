@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Flipkartblue">#047bd5</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="forest_green">#228B22</color>
+    <color name="tomato_red">#FF6347</color>
+    <color name="dim_gray">#696969</color>
+
+
+
+
+</resources>
